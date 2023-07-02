@@ -47,7 +47,7 @@ router.post('/api/checkout', (req, res) => {
     const bugId = getBugId(req);
 
     if (bugId === 2) {
-        res.json({ id: Date.now() });
+        res.json({ id: Date.now() });  
     } else {
         const id = store.createOrder(req.body);
         const data: CheckoutResponse = { id };

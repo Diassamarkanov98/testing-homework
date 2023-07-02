@@ -1,3 +1,11 @@
+Установите зависимости которые указаны в example.hermione.js
+//Если не работает - установить selenium и в конфиге поставить webdriver вместо devtools https://github.com/gemini-testing/hermione#selenium-standalone
+Telegram: @Darkdecision
+Если выходит ошибка image comparison надо будет прогнать тесты чтобы hermione сделала скриншоты 
+Вот команда:
+npx hermione --update-refs
+Версия ноды V16.20.1
+Операционная система Windows
 # Домашнее задание: Автотесты
 
 Вам дано приложение — интернет магазин. С его помощью можно смотреть каталог товаров, добавлять товары в корзину и оформлять заказы.

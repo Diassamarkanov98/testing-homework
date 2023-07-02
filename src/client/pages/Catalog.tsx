@@ -23,7 +23,7 @@ export const Catalog: React.FC = () => {
             </div>
         )) :
         'LOADING';
-
+            
     return (
         <div className={bem()}>
             <Helmet title="Catalog" />

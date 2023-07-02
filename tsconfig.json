@@ -11,10 +11,11 @@
     },
     "include": [
         "src"
-    ],
+, "test/__mocks__"    ],
     "ts-node": {
         "compilerOptions": {
             "module": "CommonJS"
         }
-    }
+    },
+    "types": ["node", "jest", "@testing-library/jest-dom"],
 }

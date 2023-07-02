@@ -4,10 +4,10 @@ module.exports = {
       files: "test/hermione",
     },
   },
-
   browsers: {
     chrome: {
-      automationProtocol: "devtools",
+      automationProtocol: "webdriver",
+      retry:2,
       desiredCapabilities: {
         browserName: "chrome",
       },
